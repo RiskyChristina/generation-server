@@ -11,7 +11,7 @@ function preload() {
 }
 
 function setup() {
-  canvasHeight = img.height + 20;
+  canvasHeight = img.height;
   createCanvas(500, 500);
   textSize(32);
 
@@ -27,7 +27,7 @@ function setup() {
 
   // create text input field
   let inputBox = createInput("Enter your text here");
-  inputBox.position(10, img.height + 0);
+  inputBox.position(10, img.height);
   inputBox.size(width - 100, 40);
 
   // create generate button
